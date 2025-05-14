@@ -23,3 +23,4 @@
 ## Настройка пайплайна на Github-е
 ![pic](pic/8.png "")<br>
 ![pic](pic/9.png "")<br>
+Данный скрипт должен лежать по пути от корня репозитория .github/workflows/hello.yml
