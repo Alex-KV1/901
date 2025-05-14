@@ -1,0 +1,17 @@
+Name: Hello
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+      - uses: action/checkout@v2
+      
+      - name: Print Hello World
+        uses: echo "Hello, World
