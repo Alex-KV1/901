@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    steps
+    steps:
       
       - name: Print Hello World
-        run: echo "Hello, World
+        run: echo "Hello, World"
